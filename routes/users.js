@@ -3,8 +3,12 @@ import {getUser,createUser,getUserById,deleteUserById,updateUserDetailsById} fro
 
 const router = express.Router();
 
-let user = [];
+// const html = './routes/index.hmtl';
 
+// router.get('/html', (request,response)=>{
+//      console.log('html called');
+//     response.send(html);
+// });
 router.get('/', getUser);
 
 router.post('/', createUser);

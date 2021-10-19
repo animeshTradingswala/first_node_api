@@ -14,8 +14,8 @@ app.use(bodyparser.json());
 app.use('/users',userRoutes);
 
 app.get('/',(request,response)=>{
-    console.log('hi');
-    console.log(request.body);
+    // console.log('hi');
+    // console.log(request.body);
     response.send('<h1 style="color:blue;">Welcome to node.js</h1>');
 });
 
